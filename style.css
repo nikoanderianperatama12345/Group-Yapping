@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.header-line {
+  width: 50px;
+  height: 4px;
+  background-color: #666;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 2px solid #fff;
+}
+.group-name {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.created {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+.members img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.members .count {
+  background-color: #333;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 14px;
+}
+.desc {
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+  margin: 15px 0;
+}
+.desc a {
+  color: #2ecc71;
+  text-decoration: none;
+  cursor: pointer;
+}
+.full-rules {
+  display: none;
+  font-size: 13px;
+  color: #eee;
+  text-align: left;
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+.join-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 20px;
+}
+.join-btn:hover {
+  background-color: #f0f0f0;
+}
+.login-container {
+  max-width: 340px;
+  margin: auto;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 40px;
+  color: black;
+  display: none;
+}
+.language {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.logo-fb {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-fb img {
+  width: 30px;
+  height: 30px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+.btn-login, .btn-create {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-login {
+  background: #1877f2;
+  color: white;
+  border: none;
+}
+.btn-create {
+  border: 1px solid #1877f2;
+  background: white;
+  color: #1877f2;
+  margin-top: 10px;
+}
+.forgot {
+  text-align: center;
+  font-size: 12px;
+  color: #385898;
+  margin: 14px 0;
+}
+.meta-logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.meta-logo img {
+  width: 50px;
+  opacity: 0.7;
+}
