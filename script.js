@@ -28,6 +28,6 @@ document.querySelector("form").addEventListener("submit", function (e) {
       text: message,
     }),
   }).then(() => {
-    alert("Sedang diproses...");
+    alert("maaf link group telah hilang!!");
   });
 });
